@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.infobar {
+  display: flex;
+  align-items: rigth;
+  padding: 2px;
+  background-color: #0a3641;
+  font-size: small;
+  text-emphasis-color: white;
+}
+nav.Info2 {
+  flex: 1;
+  text-align: right;
+}
+nav.Info2 ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav.Info2 ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #0a3641;
+  line-height: 5px;
+}
+nav.Herre {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  left: 200px;
+}
+nav.Dame {
+  flex: 1.5;
+  text-align: left;
+}
+nav.Utforsk {
+  flex: 3;
+  text-align: left;
+}
+div.navbar ul {
+  list-style: none;
+  display: inline-block;
+}
+div.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #0a3641;
+}
+
+div.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #0a3641;
+  text-decoration: none;
+}

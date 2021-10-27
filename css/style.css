@@ -65,3 +65,13 @@ div.navbar {
   color: #0a3641;
   text-decoration: none;
 }
+.nav-link {
+  color: white;
+}
+.container {
+  max-width: 2000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+j

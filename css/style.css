@@ -31,27 +31,33 @@ nav.Info2 ul li {
   border-bottom: 1px solid #0a3641;
   line-height: 5px;
 }
-nav.Herre {
+.link1 {
+  flex: 1;
+  text-align: left;
+  position: relative;
+  left: 100px;
+}
+.link2 {
   flex: 1;
   text-align: left;
   position: relative;
   left: 200px;
 }
-nav.Dame {
-  flex: 1.5;
+.link3 {
+  flex: 1;
   text-align: left;
+  position: relative;
+  left: 400px;
 }
-nav.Utforsk {
-  flex: 3;
+.link4 {
   text-align: left;
+  position: relative;
+  left: 1170px;
 }
-div.navbar ul {
-  list-style: none;
-  display: inline-block;
-}
-div.navbar ul li {
-  display: inline-block;
-  margin-right: 20px;
+.link5 {
+  text-align: left;
+  position: relative;
+  left: 1200px;
 }
 a {
   text-decoration: none;
@@ -74,4 +80,8 @@ div.navbar {
   padding-left: 25px;
   padding-right: 25px;
 }
-j
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}

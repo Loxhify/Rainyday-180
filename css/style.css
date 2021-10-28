@@ -29,35 +29,45 @@ nav.Info2 ul li {
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #0a3641;
-  line-height: 5px;
+  line-height: 2px;
 }
 .link1 {
   flex: 1;
   text-align: left;
   position: relative;
   left: 100px;
+  display: inline-block;
+  list-style-type: none;
 }
 .link2 {
   flex: 1;
   text-align: left;
   position: relative;
   left: 200px;
+  display: inline-block;
+  list-style-type: none;
 }
 .link3 {
   flex: 1;
   text-align: left;
   position: relative;
   left: 400px;
+  display: inline-block;
+  list-style-type: none;
 }
 .link4 {
   text-align: left;
   position: relative;
   left: 1170px;
+  display: inline-block;
+  list-style-type: none;
 }
 .link5 {
   text-align: left;
   position: relative;
   left: 1200px;
+  display: inline-block;
+  list-style-type: none;
 }
 a {
   text-decoration: none;
@@ -77,11 +87,20 @@ div.navbar {
 .container {
   max-width: 2000px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
 }
-#wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+.wrapper {
+  width: 100%;
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 50%;
+  min-width: 400px;
+}
+.front img {
+  max-width: 100%;
+  margin: 25px 0;
 }
